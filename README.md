@@ -1,4 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with all default options at 2023 April 19.
+
+```bash
+npx create-next-app@latest --experimental-app
+```
+
+It automatically install tailwindcss, postcss, autoprefixer etc.
+
+## My environment
+
+* [Volta](https://github.com/volta-cli/volta/releases)
+
+```
+> volta list
+⚡️ Currently active tools:
+
+    Node: v18.16.0 (default)
+    npm: v9.6.4 (default)
+    Yarn: v4.0.0-rc.36 (default)
+    Tool binaries available:
+        vue (default)
+```
+
+## My Reference links
+
+* [新しいNext.jsの入門 ─ App DirectoryによるWeb開発をハンズオンで理解しよう](https://eh-career.com/engineerhub/entry/2023/04/18/093000)
+  * [nextjs-app-directory-demo](https://github.com/Tim0401/nextjs-app-directory-demo)
+* [ts-node で TypeScript + node をサクッと実行する](https://qiita.com/mangano-ito/items/75e65071c9c482ddc335)
+* [Next 13 App Router (beta) docs](https://beta.nextjs.org/docs/getting-started)
+* [SWR - データ取得のための React Hooks ライブラリ](https://swr.vercel.app/ja)
+  * [SWRを使おうぜという話2022](https://zenn.dev/mast1ff/articles/5b48a87242f9f0)
+  * メモ: Vue は [Kong/swrv](https://docs-swrv.netlify.app/) ⇒ [両方使ってわかった Vercel/SWR と Kong/swrv の違い](https://zenn.dev/visasq/articles/difference-between-swr-and-swrv)
+
+***
 
 ## Getting Started
 
